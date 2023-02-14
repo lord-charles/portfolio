@@ -9,7 +9,7 @@ const Experience = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="xxxs:top-[20px] s:top-[50px] xxxs:h-[38rem] s:h-[47rem] relative "
+      className="xxxs:top-[60px] s:top-[50px] xxxs:h-[38rem] s:h-[47rem] relative "
     >
       <a className="anchor" id="experience"></a>
       <h1 className="text-center xxxs:text-[30px] s:text-[47px] font-bold  font-serif">

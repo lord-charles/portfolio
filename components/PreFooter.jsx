@@ -70,7 +70,7 @@ const PreFooter = () => {
             Stay up-to-date
           </h1>
           <span className="flex items-center">
-            <h2 className="font-semibold s:text-[24px] md:text-[16px]">
+            <h2 className="font-semibold xxxs:text-[16px] s:text-[24px] md:text-[16px]">
               Hint:
             </h2>
             <h3 className="font-serif s:text-[22px] md:text-[15px]">

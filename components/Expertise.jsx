@@ -21,7 +21,7 @@ const Expertise = () => {
       <div className="absolute md:left-[44vw] xxxs:left-[31vw] s:left-[35vw] xxxs:text-[20px] s:text-[35px] md:text-[24px] font-serif font-bold xxxs:top-[9px] s:top-[-4px] ">
         Main Technologies
       </div>
-      <div className="flex justify-between md:space-x-10 s:space-x-8">
+      <div className="flex justify-between md:space-x-10 s:space-x-8 xxxs:ml-2.5">
         <div
           className="md:w-[40vw] s:w-[40vw] xxxs:w-[44vw] h-fit  bg-white rounded-2xl relative top-[2.5rem] 
       "

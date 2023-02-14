@@ -70,7 +70,7 @@ const Help = () => {
                   />
                 </svg>
               </div>
-              <div className=" border font-bold">
+              <div className="  font-bold">
                 <div className="xxxs:ml-[15px] xxxs:mt-[20px] xxxs:text-[15px] md:text-[17px] s:text-[19px]">
                   <span className="flex space-x-5">
                     <svg

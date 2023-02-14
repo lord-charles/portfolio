@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+.smNavLinks{
+   @apply block mt-[-10px] mr-0  p-8 rounded-lg 
+   relative left-[55vw] w-[43vw] h-fit 
+}
+.mygrid {
+   @apply xxxs:grid-cols-2  s:grid-cols-3 md:grid-cols-4 gap-3;
+ }
+
+ .mygrid2 {
+  @apply xxxs:grid-cols-1  s:grid-cols-2 md:grid-cols-3 gap-x-[0px];
+}
+
+ .gradientCst{
+   @apply bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900 animate-pulse
+}
+.mNavLinks{
+    @apply flex mt-5 gap-1 bg-transparent p-0 relative left-[-60px] top-[-48px] justify-end w-[100vw] h-fit 
+ }
+.marquee-item-vertical {
+   animation: marquee-vertical 20s linear infinite;
+ }
+ .marquee-item-reverse-vertical {
+   animation: marquee-reverse-vertical 20s linear infinite;
+ }
+ 
+ 
+ @keyframes marquee-vertical {
+   0% {
+     transform: translateY(0);
+   }
+   100% {
+     transform: translateY(-280px);
+   }
+ }
+ @keyframes marquee-reverse-vertical {
+   0% {
+     transform: translateY(0);
+   }
+   100% {
+     transform: translateY(100px);
+   }
+ }
+ .bounceupCtm{
+   animation: bounce 6s linear infinite
+ }
+
+ @keyframes bounce {
+  0%, 100% {
+      transform: translateY(-20%);
+      animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+  50% {
+      transform: none;
+      animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+.animate-bounce {
+  animation: bounce 3s infinite;
+}
+
+.bouncedownCtm{
+  animation: bounce2 6s linear infinite
+}
+@keyframes bounce2 {
+  0%, 100% {
+      transform: translateY(25%);
+      animation-timing-function: cubi
+  }
+  50% {
+      transform: none;
+      animation-timing-function: cubi
+  }
+ }
+ animate-bounce {
+  animation: bounce 3s infinite;
+ }
+ 
+ /* custom pulse */
+ .pulseCtm{
+  animation: pulseCtm 2s linear infinite
+}
+
+ @keyframes pulseCtm {
+  50% {
+      opacity: 0;
+  }
+}
+.animate-pulse {
+  animation: pulse 2s  cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+}

@@ -347,7 +347,7 @@ export const comments = [
     name: "Anamika Sandula",
     post: "Creative Manager",
     comment:
-      "The software developer was exceptional in their ability to handle both the backend and frontend of our project. They were able to bring our vision to life and exceeded our expectations",
+      "Charles was exceptional in his ability to handle backend & frontend. He brought our vision to life and exceeded our expectations",
     img: "/people2.png",
     color: "black",
   },
@@ -363,7 +363,7 @@ export const comments = [
     name: "Claire Danes",
     post: "Master Coder",
     comment:
-      "The developer's expertise in backend development was instrumental in ensuring the stability and efficiency of our software.",
+      "Charles's expertise in backend development was instrumental in ensuring the stability and efficiency of our software.",
     img: "/people3.webp",
     color: "yellow",
   },
@@ -371,7 +371,7 @@ export const comments = [
     name: "Remington",
     post: "Innovative Innovator",
     comment:
-      "The developer was able to seamlessly integrate our frontend and backend systems, resulting in a cohesive and effective product.",
+      "Developer was able to seamlessly integrate our frontend and backend systems, resulting in a cohesive and effective product.",
     img: "/people7.jpg",
     color: "purple",
   },
@@ -395,7 +395,7 @@ export const comments = [
     name: "Olivia Wildes ",
     post: "Dynamic Developer",
     comment:
-      "The developer's dedication to delivering a high-quality product was evident in their constant communication and willingness to make changes to meet our needs.",
+      "His dedication to delivering a high-quality product was evident in their constant communication and willingness to make changes to meet our needs.",
     img: "/people6.jpg",
     color: "pink",
   },

@@ -4,7 +4,7 @@ import React from "react";
 
 const PreFooter = () => {
   return (
-    <div className=" relative top-[40px] xxxs:mx-[15px] md:mx-[120px] s:mx-[50px] mb-[50px] ">
+    <div className=" relative top-[40px] xxxs:top-[210px] xxxs:mx-[15px] md:mx-[120px] s:mx-[50px] mb-[50px] ">
       <a className="annchor" id="contact"></a>
       <div>
         <span className="flex space-x-2 items-center">
@@ -73,7 +73,7 @@ const PreFooter = () => {
             <h2 className="font-semibold xxxs:text-[16px] s:text-[24px] md:text-[16px]">
               Hint:
             </h2>
-            <h3 className="font-serif s:text-[22px] md:text-[15px]">
+            <h3 className="font-serif xxxs:text-[12px] s:text-[22px] md:text-[15px]">
               I&apos;m especially active on whatsup and twitter
             </h3>
           </span>

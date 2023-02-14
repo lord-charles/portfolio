@@ -11,7 +11,7 @@ const Slider1 = () => {
   SwiperCore.use([Autoplay]);
 
   return (
-    <div className="relative xxxs:top-[50px] s:top-[60px] mb-[100px] items-center">
+    <div className="relative xxxs:top-[220px] s:top-[190px] mb-[100px] items-center">
       <a className="anchor" id="testimonials"></a>
 
       <div className="text-center xxxs:text-[28px] md:text-[39px] s:text-[45px] font-serif font-bold">

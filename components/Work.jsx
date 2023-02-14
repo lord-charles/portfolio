@@ -9,7 +9,7 @@ const Work = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="relative s:top-[70px] s:h-[60rem] xxxs:h-[45rem]"
+      className="relative s:top-[70px] xxxs:top-[90px] s:h-[60rem] xxxs:h-[45rem]"
     >
       <div className="text-center s:text-[33px] xxxs:text-[25px] font-bold">
         How i work

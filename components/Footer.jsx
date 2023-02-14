@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div
-      className=" relative mt-[100px] rounded-tl-full bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-gray-300 via-green-600 to-purple-400
+      className=" relative mt-[100px] xxxs:mt-[280px] rounded-tl-full bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-gray-300 via-green-600 to-purple-400
    flex xxxs:flex-col md:flex-row justify-center md:h-[28vh]
     "
     >

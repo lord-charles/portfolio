@@ -11,7 +11,7 @@ const LatestWrks = () => {
 
   console.log(video1);
   return (
-    <div className="relative xxxs:h-fit xxxs:top-[5rem] md:top-[1rem] md:w-[90vw] md:left-[5vw] ">
+    <div className="relative xxxs:h-fit xxxs:top-[15rem] md:top-[1rem] md:w-[90vw] md:left-[5vw] ">
       <h1 className="xxxs:text-[27px] md:text-[38px] s:text-[39px] font-serif font-bold text-center">
         My Latest Projects
       </h1>

@@ -44,7 +44,7 @@ const Model = ({ states }) => {
   };
   return (
     <div
-      className={`fixed  top-[3vh] bottom-[5vh] h-[92vh] xxxs:mx-[10px] rounded-lgh-[100vh]  md:w-[40%] bg-transparent z-[999] transition-all duration-1000 ${
+      className={`fixed  top-[3vh] bottom-[5vh] h-[90vh] xxxs:mx-[10px] rounded-lgh-[100vh]  md:w-[40%] bg-transparent z-[999] transition-all duration-1000 ${
         !show ? `right-[0vw]` : `right-[100vw]`
       }`}
     >

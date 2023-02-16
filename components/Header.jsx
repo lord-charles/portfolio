@@ -1,12 +1,10 @@
-import Link from "next/link";
 import React, { useState } from "react";
-import { motion, useMotionValue, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import { useWindowSize } from "react-use";
 import {
   aboutmeVariants,
   contactVariants,
   ExperienceVariants,
-  headerVariants,
   logoVariants,
   portfolioVariants,
   ServicesVariants,
@@ -20,9 +18,7 @@ const Header = () => {
   const [isClicked, setIsClicked] = useState(false);
   const headerShadow = useHeaderShadow(true);
   const setBackground = useBackground(true);
-  const x = useMotionValue(0);
   const { width } = useWindowSize();
-  const opacity = useTransform(x, [-100, 0, 100], [0, 1, 0]);
   return (
     <div
       className="position fixed top-0 left-0 right-0   md:h-[123px] xxxs:h-[92px] s:h-[120px] z-[999]"

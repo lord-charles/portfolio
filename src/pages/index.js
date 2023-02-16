@@ -15,7 +15,7 @@ import {
   Model,
 } from "components";
 
-const index = () => {
+const Home = () => {
   const [show, setShow] = useState(true);
   const states = { show, setShow };
 
@@ -38,4 +38,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Home;

@@ -9,7 +9,6 @@ const LatestWrks = () => {
   const [video5, setVideo5] = useState(true);
   const [video6, setVideo6] = useState(true);
 
-  console.log(video1);
   return (
     <div className="relative xxxs:h-fit xxxs:top-[15rem] md:top-[1rem] md:w-[90vw] md:left-[5vw] ">
       <h1 className="xxxs:text-[27px] md:text-[38px] s:text-[39px] font-serif font-bold text-center">

@@ -13,7 +13,6 @@ import dynamic from "next/dynamic";
 const Model = ({ states }) => {
   const { show, setShow } = states;
   const { messages, addMessage } = useMessage();
-  const [botMessage, setbotMessage] = useState();
 
   const handleSendMessage = async (input) => {
     // Add user message to the list of messages

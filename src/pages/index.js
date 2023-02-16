@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Header,
   Hero,
@@ -12,14 +12,18 @@ import {
   Slider1,
   PreFooter,
   Footer,
+  Model,
 } from "components";
 
 const index = () => {
+  const [show, setShow] = useState(true);
+  const states = { show, setShow };
+
   return (
     <div className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 overflow-hidden">
       <Header />
       <Hero />
-      <Bot />
+      <Bot states={states} />
       <Expertise />
       <OtherTech />
       <Help />
@@ -29,6 +33,7 @@ const index = () => {
       <Slider1 />
       <PreFooter />
       <Footer />
+      <Model states={states} />
     </div>
   );
 };

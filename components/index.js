@@ -10,6 +10,7 @@ import LatestWrks from "./LatestWrks";
 import Slider1 from "./Slider1";
 import PreFooter from "./PreFooter";
 import Footer from "./Footer";
+import Model from "./Model";
 export {
   Header,
   Hero,
@@ -23,4 +24,5 @@ export {
   Slider1,
   PreFooter,
   Footer,
+  Model,
 };

@@ -1,9 +1,14 @@
 import Image from "next/image";
 import React from "react";
 
-const Bot = () => {
+const Bot = ({ states }) => {
+  const { show, setShow } = states;
+
   return (
-    <div className="fixed bottom-[1vh] right-1 animate-bounce rounded-full z-[999]">
+    <div
+      className="fixed bottom-[1vh] right-1 animate-bounce rounded-full z-[999] transition-all duration-1000"
+      onClick={() => setShow(false)}
+    >
       <Image
         src={"/message.png"}
         height={100}

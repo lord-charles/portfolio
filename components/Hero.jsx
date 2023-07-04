@@ -105,7 +105,7 @@ const Hero = () => {
               >
                 <CountUp
                   start={0}
-                  end={4}
+                  end={5}
                   duration={2}
                   separator=","
                   delay={1}
